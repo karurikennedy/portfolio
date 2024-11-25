@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./images/favicon.png">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">K</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#Institutions">Education</a>
+				</li>
+				<li>
+					<a href="mailto:karurikennedy175@gmail.com" target="_blank" class="button">Reach Out</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Kennedy Mwangi
+					</h1>
+					<p>
+						Hello! I'm Kennedy Mwangi, a driven student pursuing Computer Science at Kenyatta University and Software Engineering at Power Learn Academy. 
+                        <span>My journey is fueled by a passion for becoming a Tech Sensation both locally and globally.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="./Kennedy_Karuri_CV.pdf" target="_blank" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:karurikennedy175@gmail.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/karurikennedy" target="_blank">
+							<img src="./images/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/kennedykaruri/" target="_blank">
+							<img src="./images/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./images/kennedy.jpg" alt="Kennedy Mwangi" width="70%" />
+			</div>
+		</section>
+		<section class="certs container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./images/cert1.jpeg" alt="HTML" width="128" />
+					<img src="./images/cert2.jpeg" alt="CSS" width="128" />
+					<img src="./images/cert3.jpeg" alt="JS" width="128" />
+					<img src="./images/cert4.jpeg" width="128" alt="Azure" />
+					<img src="./images/cert5.jpeg" width="128" alt="VS Code" />
+					<img src="./images/cert6.jpeg" width="128" alt="Python" />
+					<img src="./images/cert7.jpeg" alt="HTML" width="128" />
+					<img src="./images/cert8.jpeg" alt="CSS" width="128" />
+					<img src="./images/cert1.jpeg" alt="HTML" width="128" />
+					<img src="./images/cert2.jpeg" alt="CSS" width="128" />
+					<img src="./images/cert3.jpeg" alt="JS" width="128" />
+					<img src="./images/cert4.jpeg" width="128" alt="Azure" />
+					<img src="./images/cert5.jpeg" width="128" alt="VS Code" />
+					<img src="./images/cert6.jpeg" width="128" alt="Python" />
+					<img src="./images/cert7.jpeg" alt="HTML" width="128" />
+					<img src="./images/cert8.jpeg" alt="CSS" width="128" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+
+					</ul>
+					<h3>Backend</h3>
+					<ul>
+						<li>Node.js</li>
+						<li>Express</li>
+						<li>Python</li>
+						<li>Java</li>
+						<li>PHP</li>
+						<li>Ruby</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Hello! I'm Kennedy Mwangi, a driven student at PLP specializing in Software Engineering, while also pursuing Computer Science at Kenyatta University. 
+						My journey is fueled by a passion for becoming a Tech Sensation both locally and globally.
+					</p>
+					<p>
+						In addition to my focus on Software Engineering, I bring a background in cybersecurity, having completed the Google Cybersecurity Certificate course on Coursera. 
+						This experience adds a valuable layer to my skill set and underscores my commitment to a comprehensive understanding of technology.
+						My aspirations revolve around collaborating with leading organizations to drive innovative advancements that shape the future. 
+						I firmly believe that dedication and hard work are the keys to carving out a niche in the dynamic field of technology.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="Institutions" class="Institutions container">
+			<h2>
+				<small>Recent</small>
+				Education Institutions
+			</h2>
+			<div class="courses">
+				<article>
+					<figure>
+						<div>
+							<img src="./images/kenyatta-university-logo.png" alt="Institution 1 - Kenyatta University" width="70%" />
+							<figcaption>
+								Institution - 1 Kenyatta University
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Computer Science</h3>
+					<div>2021-current</div>
+					<p>Kenyatta University (KU) is one of Kenya's leading institutions of higher education, located in Nairobi.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./images/plp-logo.jpg" alt="Institution 2 - PLP Academy" width="100%" />
+							<figcaption>
+								Institution - 2 - PLP Academy
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Software Engineering</h3>
+					<div>2024-current</div>
+					<p>Power Learn Academy is a digital skills training institution focused on equipping African youth with practical knowledge in technology.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./images/alx-logo.jpg" alt="Institution 3 - ALX" width="100%" />
+							<figcaption>
+								Institution - ALX
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Data Science</h3>
+					<div>2023-2024</div>
+					<p>ALX Africa is a leading talent accelerator that provides skills training in technology, leadership, and entrepreneurship.</p>
+				</article>
+				
+			</div>
+	
+		<section class="chatbot container">
+			<h2>
+				<small>
+					Talk to me
+				</small>
+				Chatbot
+			</h2>
+			<div class="chatbot-blue">
+				<div class="chat-info">
+					<h3>Azure AI Chatbot</h3>
+					<p>I've put together a chatbot here which knows all my skills, work experience and has a copy of my CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what I've done.</p>
+					<p>You can also download my resume here if you want to take a look at it.  I'm currently looking for new opportunities so if you have a project you think I'd be a good fit for, please get in touch!</p>
+					<a href="./Kennedy_Karuri_CV.pdf" target="_blank" class="button black">Download Resume</a>
+				</div>
+				<div class="chat-box">
+					<div class="scroll-area">
+						<ul id="chat-log">
+							<li>
+								<span class="avatar bot">AI</span>
+								<div class="message">
+									Hi, I'm a friendly chatbot that lets you interactive with this portfolio and CV. How can I help?
+								</div>
+							</li>
+							<li>
+								<span class="avatar user">User</span>
+								<div class="message">
+									I have a question to ask you about this resume
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="chat-message">
+						<input type="text" placeholder="Hey Kennedy, what skills are you best at?">
+						<button class="button black">Send</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
