@@ -398,6 +398,23 @@ h3 {
 	}
 }
 
+.project-detail {
+	.project-section {
+		background-color: var(--yellow-100);
+		border-radius:30px;
+		padding:30px;
+		margin-bottom:30px;
+		h3 {
+			margin-bottom:10px;
+		}
+		.gallery-placeholder {
+			min-height:200px;
+			border:2px dashed var(--base-400);
+			border-radius:15px;
+		}
+	}
+}
+
 .chatbot {
 	.chatbot-blue {
 		background-color: var(--blue-100);
